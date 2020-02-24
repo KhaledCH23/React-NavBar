@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 3px solid #2196f7;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.nav-item:hover {
+  color: #2196f7;
+}
+.nav-item:active {
+  color: #2196f7;
+}
+
+.nav-item:hover .drop {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 5px;
+}
+.drop {
+  border: 3px solid #2196f7;
+  display: none;
+  color: black;
+  position: fixed;
+  top: 76px;
+  font-size: 0.7em;
+}
+.drop li {
+  padding: 10px 0px;
+  text-align: left;
+}
